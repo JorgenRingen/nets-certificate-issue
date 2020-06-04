@@ -4,14 +4,11 @@ import org.slf4j.LoggerFactory
 import org.springframework.boot.CommandLineRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
-import org.springframework.boot.web.client.ClientHttpRequestFactorySupplier
 import org.springframework.boot.web.client.RestTemplateBuilder
 import org.springframework.context.annotation.Bean
-import org.springframework.http.client.BufferingClientHttpRequestFactory
 import org.springframework.web.client.RestTemplate
 import org.springframework.web.util.UriComponentsBuilder
 import java.lang.invoke.MethodHandles
-import java.time.Duration
 
 @SpringBootApplication
 class NetsErrorApplication {
