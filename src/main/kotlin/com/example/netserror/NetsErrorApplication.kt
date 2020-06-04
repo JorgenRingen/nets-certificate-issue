@@ -32,6 +32,7 @@ class NetsErrorApplication {
             uriBuilder.queryParam("transactionId", "random")
 
 
+            // throws javax.net.ssl.SSLHandshakeException
             restTemplate.getForEntity(uriBuilder.build(true).toUri(), String::class.java)
         }
     }
